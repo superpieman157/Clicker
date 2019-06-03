@@ -1,7 +1,7 @@
 var gameData = {
   Money: 0,
   MoneyPerClick: 1,
-  moneyPerClickCost: 10
+  moneyPerClickCost: 10,
 }
 
 function makeMoney() {
