@@ -13,7 +13,7 @@ function buyMoneyPerClick() {
   if (gameData.Money >= gameData.moneyPerClickCost){
     gameData.Money -= gameData.moneyPerClickCost
     gameData.MoneyPerClick += 1
-    gameData.moneyPerClickCost *= 2
+    gameData.moneyPerClickCost *= 1.5
     document.getElementById("MoneyMade").innerHTML = gameData.Money + " Money Made"
     document.getElementById("perClickUpgrade").innerHTML = "Upgrade Skill (Now Level" + gameData.MoneyPerClick + ") Cost: " + gameData.moneyPerClickCost + " Money"
   }
